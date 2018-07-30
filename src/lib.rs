@@ -18,7 +18,7 @@ mod tests {
     }
 
     #[test]
-    fn return_false_if_url_is_no_correct() {
+    fn return_false_if_url_is_not_correct() {
         assert_eq!(super::is_url("this/my/url"), false);
     }
 

@@ -1,0 +1,19 @@
+{
+  "name": "url-checker",
+  "collaborators": [
+    "Roberto Huertas <roberto.huertas@outlook.com>"
+  ],
+  "description": "This is a simple npm package leveraging the power of Rust + WASM in order to tell you if some String has a proper URL format or not. Just that!",
+  "version": "0.1.0",
+  "license": "MIT/Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/robertohuertasm/url-checker"
+  },
+  "files": [
+    "url_checker_bg.wasm",
+    "url_checker.d.ts"
+  ],
+  "main": "url_checker.js",
+  "types": "url_checker.d.ts"
+}

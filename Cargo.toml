@@ -6,6 +6,11 @@ description = "This is a simple npm package leveraging the power of Rust + WASM 
 license = "MIT/Apache-2.0"
 repository = "https://github.com/robertohuertasm/url-checker"
 
+[profile.release]
+debug = false
+lto = true
+opt-level = 'z'
+
 [lib]
 crate-type = ["cdylib"]
 
