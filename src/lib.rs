@@ -5,7 +5,7 @@ extern crate wasm_bindgen;
 use url::Url;
 use wasm_bindgen::prelude::*;
 
-#[wasm_bindgen]
+#[wasm_bindgen(js_name = isUrl)]
 pub fn is_url(input: &str) -> bool {
     Url::parse(input).is_ok()
 }
